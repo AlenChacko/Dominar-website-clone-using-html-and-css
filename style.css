@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bajaj-logo {
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+#icon:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#enq-btn:hover:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+#enq-btn {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 17px;
+}
+
+#btn {
+    color: #007bff;
+    font-weight: bold;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+#bajaj-logo:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+
+.head {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+
+.left {
+    display: flex;
+    width: 60%;
+    height: 70px;
+    background-color: white;
+
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    height: 70px;
+    background-color: white;
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    background-color: #dadcdd;
+}
+#domi{
+    margin-top: 60px;
+}
+
+.modal {
+    margin-top: 70px;
+    width: 100px;
+    background-color: dadcdd;
+    height: 70px;
+}
+
+.price {
+    margin-left: 50px;
+    margin-top: 70px;
+
+    width: 300px;
+    background-color: #dadcdd;
+    height: 270px;
+}
+
+#start {
+    color: #007bff;
+    font-size: 13px;
+}
+
+#cost {
+    margin-top: -10px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#delhi {
+    margin-top: -39px;
+    font-size: 10px;
+    color: #007bff;
+}
+
+#city:hover {
+
+    cursor: pointer;
+    color: blue;
+}
+
+#city {
+    margin-top: -24px;
+    text-decoration: underline;
+    margin-left: 135px;
+    font-size: 10px;
+    color: #007bff;
+}
+
+#mod-name {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  
+}
+
+#cc {
+    margin-top: -25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.features {
+    height: 200px;
+    width: 100%;
+    display: flex;
+
+}
+
+.performance {
+
+    width: 25%;
+    background-color: white;
+}
+
+.design {
+    width: 25%;
+    background-color: white;
+}
+
+.technology {
+    width: 25%;
+    background-color: white;
+}
+
+.safety {
+    width: 25%;
+    background-color: white;
+}
+
+.img {
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+#head1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 63px;
+}
+
+#head2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 103px;
+}
+
+#head3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 74px;
+}
+
+#head4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 108px;
+}
+
+#sub-head1 {
+    margin-left: 21px;
+}
+
+#sub-head2 {
+    margin-left: 74px;
+}
+
+#sub-head3 {
+    margin-left: 38px;
+}
+
+#sub-head4 {
+    margin-left: 16px;
+}
+
+.body-1 {
+    border: 1px solid;
+    border-color: black;
+    margin-top: 15px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.body-3 {
+    border: 1px solid;
+    border-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.left-1 {
+    width: 60%;
+    height: 100%;
+}
+
+.right-1 {
+    width: 40%;
+    height: 100%;
+    background-color: #dadcdd;
+}
+
+.left-3 {
+    width: 60%;
+    height: 100%;
+}
+
+.right-3 {
+    width: 40%;
+    height: 100%;
+    background-color: #dadcdd;
+}
+
+#per {
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 127px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#per2 {
+    font-size: 42px;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+#per3 {
+    font-size: 12 px;
+    margin-left: 60px;
+    color: black;
+    
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.body-2 {
+    border: 1px solid;
+    border-color: black;
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+.body-4 {
+
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+.left-2 {
+    width: 40%;
+    background-color: #dadcdd;
+}
+
+.right-2 {
+    width: 60%;
+}
+
+.left-4 {
+    width: 40%;
+    background-color: #dadcdd;
+}
+
+.right-4 {
+    border: 1px solid;
+    border-color: black;
+    width: 60%;
+}
+
+.body-5 {
+
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #dadcdd;
+
+}
+
+.div {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+
+}
+
+#call-logo {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#call {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    margin-top: -32px;
+    margin-left: 84px;
+}
+
+#mail-logo {
+    margin-top: -25px;
+    margin-left: 380px;
+}
+
+#mail {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: -35px;
+
+}
+
+#social {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 33px;
+
+}
+
+.r {
+    width: 15%;
+    height: 30%;
+
+}
+#call:hover{
+    cursor: pointer;
+}
+#mail:hover{
+    cursor: pointer;
+}
+.logos:hover{
+    cursor: pointer;
+}
+.logos {
+    width: 15%;
+
+}
+
+.ic {
+    margin-left: 3px;
+    margin-top: 11px;
+}
+
+.l {
+    width: 70%;
+    height: 30px;
+}
